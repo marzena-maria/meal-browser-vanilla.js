@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-js-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server",
+    "scss": "node-sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "sass-lint": "^1.13.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
+    "scss-compile": "^0.1.7",
+    "scss-watch": "^1.0.1"
+  }
+}

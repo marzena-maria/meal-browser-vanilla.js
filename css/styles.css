@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #CD816A; }
+  body .header {
+    background-image: url(/photos/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    body .header .h1 {
+      font-family: 'Fredericka the Great', cursive;
+      color: white;
+      font-size: 50px;
+      text-shadow: 4px -2px 5px #60636a;
+      letter-spacing: 10px;
+      margin-top: 0;
+      padding-top: 10px; }
+    body .header .searching-window {
+      padding: 10px; }
+      body .header .searching-window .input,
+      body .header .searching-window .button {
+        padding: 10px 15px;
+        border: none; }
+    body .header .searching-result {
+      outline: 2px solid blueviolet; }
+  body .meals-container {
+    margin: 20px; }
+    body .meals-container .one-meal {
+      color: white;
+      justify-self: strech;
+      margin: 10px;
+      padding: 15px;
+      display: flex;
+      justify-content: center; }
+      body .meals-container .one-meal img,
+      body .meals-container .one-meal .meal-data {
+        align-self: center; }
+      body .meals-container .one-meal img {
+        height: 150px;
+        width: 150px; }
+      body .meals-container .one-meal .meal-data {
+        padding: 20px; }
+        body .meals-container .one-meal .meal-data h2,
+        body .meals-container .one-meal .meal-data a {
+          font-family: 'Fredericka the Great', cursive; }
+        body .meals-container .one-meal .meal-data h2 {
+          text-shadow: 4px -2px 5px #60636a;
+          font-size: 20px;
+          color: #fff; }
+        body .meals-container .one-meal .meal-data p {
+          font-size: 14px;
+          color: black; }
+        body .meals-container .one-meal .meal-data a {
+          font-size: 18px; }
+          body .meals-container .one-meal .meal-data a:link {
+            color: #894530; }
+          body .meals-container .one-meal .meal-data a:visited {
+            color: #4E1A0C; }
+          body .meals-container .one-meal .meal-data a:hover {
+            color: #2D1418; }
+
+@media only screen and (min-width: 526px) {
+  body .header .h1 {
+    font-size: 60px; }
+  body .meals-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto; }
+    body .meals-container .one-meal img {
+      height: 180px;
+      width: 180px; }
+    body .meals-container .one-meal .meal-data h2 {
+      font-size: 30px; }
+    body .meals-container .one-meal .meal-data p {
+      font-size: 18px; }
+    body .meals-container .one-meal .meal-data a {
+      font-size: 20px; } }
+
+@media only screen and (min-width: 1038px) {
+  body .header .h1 {
+    font-size: 70px; }
+  body .meals-container {
+    grid-template-columns: 1fr 1fr 1fr; }
+    body .meals-container .one-meal img {
+      height: 210px;
+      width: 210px; }
+    body .meals-container .one-meal .meal-data h2 {
+      font-size: 34px; }
+    body .meals-container .one-meal .meal-data p {
+      font-size: 20px; }
+    body .meals-container .one-meal .meal-data a {
+      font-size: 22px; } }
