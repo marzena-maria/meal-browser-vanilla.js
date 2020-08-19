@@ -1,3 +1,4 @@
+
 /////////////////////////////////////////////////
 // taking value from input field
 
@@ -8,7 +9,6 @@ let value = '';
 searchingWindow.addEventListener('keyup', (event) => {
     event.preventDefault();
     value = input.value;
-    // 
 });
 
 /////////////////////////////////////////////////
@@ -104,7 +104,7 @@ function displayMealsFromSearch() {
     console.log(meals);
     if(!meals) {
       console.log("No result found");
-      noResult = document.querySelector('.meals-container');
+      const noResult = document.querySelector('.meals-container');
       noResult.textContent = "No result found";
       return;
     }
