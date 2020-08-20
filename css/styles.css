@@ -3,7 +3,7 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
   background-color: #CD816A; }
   body .header {
-    background-image: url(/vanilla-js-project/photos/hero.jpg);
+    background-image: url(/./photos/hero.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
