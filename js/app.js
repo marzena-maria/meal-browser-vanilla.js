@@ -103,8 +103,6 @@ function displayMealsFromSearch() {
       const noResult = document.createElement('p');
       noResult.classList.add('no-result');
       noResult.textContent = "No result found";
-      noResult.style.color = '#fff';
-      noResult.style.fontSize = '50px';
       mealsContainer.append(noResult);
       return;
     }

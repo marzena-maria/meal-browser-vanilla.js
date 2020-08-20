@@ -3,7 +3,7 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
   background-color: #CD816A; }
   body .header {
-    background-image: url(/photos/hero.jpg);
+    background-image: url(photos/hero.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -25,10 +25,11 @@ body {
       body .header .searching-window .button {
         padding: 10px 15px;
         border: none; }
-    body .header .searching-result {
-      outline: 2px solid blueviolet; }
   body .meals-container {
     margin: 20px; }
+    body .meals-container .no-result {
+      color: white;
+      font-size: 50px; }
     body .meals-container .one-meal {
       color: white;
       justify-self: strech;
