@@ -1,0 +1,31 @@
+@media only screen and (min-width : 1038px) {
+    body {
+        .header {
+            .h1 {
+                font-size: 70px;
+            }
+        }
+
+        .meals-container {
+            grid-template-columns: 1fr 1fr 1fr;
+    
+            .one-meal {
+                img { 
+                    height: 210px;
+                    width: 210px;
+                }
+                .meal-data {
+                    h2 {
+                        font-size: 34px;
+                    }
+                    p {
+                        font-size: 20px;
+                    }
+                    a {
+                        font-size: 22px;
+                    }    
+                }
+            }
+        }    
+    }
+}

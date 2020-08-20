@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #CD816A;
+    //background-image: linear-gradient(to bottom right, #CD816A, #fff);
+
+    .header {
+        background-image: url(/photos/hero.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .h1 {
+            font-family: 'Fredericka the Great', cursive;   
+            color: white;
+            font-size: 50px;
+            text-shadow: 4px -2px 5px rgba(96, 99, 106, 1);
+            letter-spacing: 10px;
+            margin-top: 0;
+            padding-top: 10px;
+        }
+
+        .searching-window {
+            padding: 10px;
+
+            .input,
+            .button {
+                padding: 10px 15px;
+                border: none;
+            }
+        }
+
+        // .searching-result {
+        //     outline: 2px solid blueviolet;
+        // }
+    }
+
+    .meals-container {
+        margin: 20px;
+
+        .one-meal {
+            color: white;
+            justify-self: strech;
+            margin: 10px;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+
+            img,
+            .meal-data {
+                align-self: center;
+            }
+
+            img {
+                height: 150px;
+                width: 150px;
+            }
+
+            .meal-data {
+                padding: 20px;
+
+                h2,
+                a {
+                    font-family: 'Fredericka the Great', cursive;      
+                }
+
+                h2 {
+                    text-shadow: 4px -2px 5px rgba(96, 99, 106, 1);
+                    font-size: 20px;
+                    color: #fff;  
+                }
+
+                p {
+                    font-size: 14px;
+                    color: black;
+                }
+
+                a {
+                    font-size: 18px;
+                                      
+                    &:link {
+                        color: #894530;
+                    }
+                    &:visited {
+                        color: #4E1A0C;
+                    }
+                    &:hover {
+                        color: #2D1418;
+                    }
+                }
+            }
+        }
+    }
+}
